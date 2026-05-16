@@ -25,7 +25,7 @@ const Card = ({ id, name, price, description, image, categoryId, stock }: IProdu
                     fontFamily: '"VT323", monospace',
                     fontSize: '1.2rem'
                 },
-                icon: "🚫"
+                icon: "🚫" as any
             });
             return; 
         }
